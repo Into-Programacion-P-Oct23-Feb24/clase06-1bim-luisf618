@@ -16,6 +16,11 @@ public class Ejemplo02 {
         
         pais = "Ecuador";
         char letra = pais.charAt(0);
+        /*
+        El metodo charAt sirve para para escoger un caracter de la posicion
+        que queremos y guardarlo en otra variable de tipo char que es para un
+        caracter y sea una variable diferente
+        */
         System.out.printf("%s\n", letra);
         
     }
