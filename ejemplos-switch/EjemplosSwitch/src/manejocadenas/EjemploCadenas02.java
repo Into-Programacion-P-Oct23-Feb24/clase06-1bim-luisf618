@@ -15,15 +15,20 @@ import java.util.Scanner;
 public class EjemploCadenas02 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
+        // Esta linea de codigo nos permite ingresar datos por teclado
         entrada.useLocale(Locale.US);
+        /* 
+        La linea 19 se usa para usar el formato de Estados Unidos principlamente
+        en decimales y usar el punto para los decimales
+        */
         String cadenaFinal = "Datos Ingresados\n";
         
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
         
-        
         cadenaFinal = String.format("%sCiudad:%s\n",
                 cadenaFinal, ciudad);
+        // String.format es similar al printf para ponerle formato
         
         System.out.println("Ingrese la provincia");
         String provincia = entrada.nextLine(); // 
@@ -32,7 +37,7 @@ public class EjemploCadenas02 {
                 cadenaFinal,
                 provincia);
         
-        System.out.println("Ingrese la país");
+        System.out.println("Ingrese el país");
         String pais = entrada.nextLine(); // 
         
         cadenaFinal = String.format("%sPaís:%s\n",  
@@ -40,5 +45,6 @@ public class EjemploCadenas02 {
                 pais);
         
         System.out.printf("%s", cadenaFinal);
-    }
+        
+}
 }

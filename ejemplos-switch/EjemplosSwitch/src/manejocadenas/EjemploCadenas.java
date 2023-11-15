@@ -14,9 +14,14 @@ public class EjemploCadenas {
         String ciudad = "loJa";
         ciudad = ciudad.toUpperCase();
         System.out.printf("%s\n", ciudad.toLowerCase());
-        System.out.printf("%s\n", ciudad.toUpperCase());
+        // System.out.printf("%s\n", ciudad.toUpperCase());
         System.out.printf("%s\n", ciudad);
-        
+        /*
+        toLowerCase es un metodo que se utiliza para cambiar los caracteres para
+        que todos esten en minuscula
+        toUpperCase en un metodo que se utiliza para cambiar los caracteres para 
+        que todos esten en mayuscula
+        */
         
     }
 }
